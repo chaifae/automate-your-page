@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Stephanie's Notes</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="content">
+      <h1 id="top">Stephanie's Intro to Programming Notes</h1>
+      <div class="tablecontents">
+        <a href="#basics">Basics</a> | <a href="#structure">Structure</a> | <a href="#style">Style</a><br>
+        <a href="#tellingcomputers">Programming</a> | <a href="#variables">Variables & Strings</a> | <a href="#functions">Functions</a> | <a href="#repetition">Repetition & Loops</a> | <a href="#problems">Solving Problems</a>
+        <br>
+        <a href="#resources">Resources</a>
+      </div>
+      <div class="headerimg">
+        <img src="images/html_crop.jpg" alt="This is an image">
+      </div>
+      <div class="lesson">
+        <h2 id="basics">
+          Basics of Web and HTML
+        </h2>
+        <div class="notes">
+          <p>
+            The <em>World Wibe Web</em> is a collection of documents, most are made up of HTML. The browser reads, interprets, and displays these documents. Servers are computers that host files that make up the web. Computers make requests via the internet to servers, the internet and servers communicate through http. HTTP is the main protocol of the web.
+          </p>
+          <p>
+            <em>Coding</em> is when programmers write text in a language computers understand, so the computer can follow the instructions. Computers are stupid, even a small mistake like a typo can break the whole program.
+          </p>
+          <p>
+            <em>Basic HTML vocabulary:</em><br>
+            <em>Tag</em> - HTML tags are always contained in angle brackets. Most tags have opening and closing tags (designated with a forward-slash), but some tags called void tags do not require a closing tag. There are inline tags and block tags - block tags create an invisible box or container around the content that has a height and width, while inline tags do something within the line.<br>
+            <em>Element</em> - An HTML element refers to everything within a set of opening and closing tags.<br>
+            <em>Attribute</em> - This is a property of an HTML element, such as the source in an image tag.
+          </p>
+          <div class="toplink">
+            <a href="#top">Go back to the top</a>
+          </div>
+        </div>
+      </div>
+      <div class="lesson">
+        <h2 id="structure">
+          Creating a Structured Document with HTML
+        </h2>
+        <div class="notes">
+          <p>
+            <em>HTML (HyperText Markup Language)</em> is the structure of a webpage. HTML is the standard markup language used to create webpages.
+          </p>
+          <p>
+            <em>DOM (Document Object Model)</em> refers to the tree-like structure of a webpage. DOM is a cross-platform and language-independent convention for representing and interacting with objects in markup languages. The nodes of every document are organized in a tree structure, called the DOM tree.
+          </p>
+          <p>
+            Websites are all made up of boxes, with boxes inside those boxes, and more boxes inside those. Box-ception. When reading the HTML you can see the "boxes" by the indentation in the code - the further indented the code is the deeper the visual box is nested.
+          </p>
+          <div class="toplink">
+            <a href="#top">Go back to the top</a>
+          </div>
+        </div>
+      </div>
+      <div class="lesson">
+        <h2 id="style">
+          Adding CSS Style to HTML Structure
+        </h2>
+        <div class="notes">
+          <p>
+            <em>CSS (Cascading Style Sheets)</em> creates the style of a webpage. CSS is a style sheet language used for describing the look and formatting of a document written in a markup language.
+          </p>
+          <p>
+            The <em>Cascading</em> part of CSS means that rules are applied to the elements they directly match as well as that element's child elements, like a waterfall will wet every stone from the top to the bottom. This idea is known as <em>inheritance</em>. If a child element has multiple, overlapping rules defined for it, the more specific rules take precedence.
+          </p>
+          <p>
+            <b>Avoiding repetition</b> is very important in programming. It helps avoid errors when you don't have to rewrite the same thing over and over again - there is always the risk of typos! Avoiding repetition also helps with creating consistency. With CSS, you can apply the same style to everything of the same element, like I have done with all of the div tags with the class "lesson" here. Because of that, it is now very easy for me to make changes to all of the lessons' style at once.
+          </p>
+          <div class="toplink">
+            <a href="#top">Go back to the top</a>
+          </div>
+        </div>
+      </div>
+      <div class="lesson">
+        <h2 id="tellingcomputers">
+          Telling Computers What to Do
+        </h2>
+        <div class="notes">
+          <p>
+            A computer is a <em>universal machine</em>, that means it can be programmed to do anything we want it to do, unlike machines like a vacuum cleaner that can only do their one function. A program is a precise sequence of steps for a computer to follow. Some examples of programs are web browsers, video games, and instant messaging.
+          </p>
+          <p>
+            We create new languages for computers rather than using natural languages like English because of the ambiguity and verbosity of natural languages. We want to be able to tell the computer precicely what to do without requiring a large amount of text. Programming languages have grammar rules just like natural languages, but we must follow the rules exactly for the program to work. An <em>expression</em> in code is a legal statement, one that follows the grammar rules of the programming language.
+          </p>
+          <p>
+            <em>Python</em> is a programming language. When you run Python code, a Python interpreter converts the code into instructions for the computer to execute.
+          </p>
+          <div class="toplink">
+            <a href="#top">Go back to the top</a>
+          </div>
+        </div>
+      </div>
+      <div class="lesson">
+        <h2 id="variables">
+          Variables and Strings
+        </h2>
+        <div class="notes">
+          <p>
+            A <em>variable</em> is a way to give a name to a value so you can easily reference and use that value later. You assign a value to a variable using the equal sign, such as my_age = 23. Variables are useful in storing data and also in referencing that data in a way that makes sense to humans reading the code. Using variables also allows us to easily change the value of something, like days +=1.
+          </p>
+          <p>
+            In Python, 5 is a number (or integer), while "5" is a <em>string</em>. Everything within quotes (either single quotes or double quotes) is a string. Running the code 2 + 3 would give us 5, but the code "2" + "3" gives "23" because it is concatenating (squishing together) the two strings.
+          </p>
+          <div class="toplink">
+            <a href="#top">Go back to the top</a>
+          </div>
+        </div>
+      </div>
+      <div class="lesson">
+        <h2 id="functions">
+          Functions
+        </h2>
+        <div class="notes">
+          <p>
+            Functions take <em>input</em>, do something with the input, and produce <em>output</em>. A function named "add" might take two numbers as input and output the sum of them. Once you create a function, you can reuse it in the code without having to redefine it each time, which helps to avoid repetition.
+          </p>
+          <p>
+            Functions are created by starting a line with def and following with the function name and the parameters/arguments in parenthesis, followed by a colon. The next lines will be the body of the function, and they will be indented.
+          </p>
+          <pre>def add(a, b):
+      return a + b</pre>
+          <p>
+            The return keyword tells Python what the function needs to output. A function without a return statement doesn't do anything that the user can see.
+          </p>
+          <p>
+            To use or call a funtion you type the name of the function with the arguments/parameters you want to use in parenthesis, like add(2, 3)
+          </p>
+          <div class="toplink">
+            <a href="#top">Go back to the top</a>
+          </div>
+        </div>
+      </div>
+      <div class="lesson">
+        <h2 id="repetition">
+          Repetition, Loops, and Structured Data
+        </h2>
+        <div class="notes">
+          <p>
+            <em>If statements</em> let us control what part of the code is executed. If the condition is True, the indented block of code will execute. If not the interpreter moves on without executed the block under the if statement. An <em>else statement</em> under an if statement is executed when the if statement was not True.
+          </p>
+          <p>
+            <em>While statements</em> will loop through the indented block of code until the condition is no longer met. Both while and if statements use comparision operators, like greater than or less than, to return the Boolean values True and False.
+          </p>
+          <p>
+            <em>Lists</em> are sequences of data contained in square brackets [ ] and can contain any combination of numbers, strings, or Boolean values. Lists can even contain other lists. <em>For loops</em> allow you to iterate over lists.
+          </p>
+          <pre>for dog in doggy_daycare:
+      dog_food += 1</pre>
+          <div class="toplink">
+            <a href="#top">Go back to the top</a>
+          </div>
+        </div>
+      </div>
+      <div class="lesson">
+        <h2 id="problems">
+          How to Solve Problems
+        </h2>
+        <div class="notes">
+          <p>
+            The first step to solving any problem is to understand the inputs and outputs. The inputs are anything the program will be responsible for processing, while the outputs are the desired response we want the function to provide.
+          </p>
+          <p>
+            Before you start coding, it is often useful to work through some examples by hand and develop a simple mechanical solution that we can base the function off of. Then once you start coding, develop the code in small parts and test as you go. It's easier to fix problems as they arise than to have to find and fix all the problems at the end!
+          </p>
+          <div class="toplink">
+            <a href="#top">Go back to the top</a>
+          </div>
+        </div>
+      </div>
+      <div class="resources">
+        <div class="ref" id="resources">List of resources and important links:</div>
+        <p>
+          <a href="http://validator.w3.org/#validate_by_input">HTML Validation</a> | <a href="https://jigsaw.w3.org/css-validator/#validate_by_input">CSS Validation</a><br>
+          <a href="http://www.w3schools.com/tags/default.asp">HTML Tag List</a> | <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS Documentation</a> | <a href="http://www.w3schools.com/tags/ref_colorpicker.asp">HTML Color Picker</a><br>
+          <a href="http://codepen.io/pen/">Codepen</a> | <a href="http://scratchpad.io/">Scratchpad</a><br>
+          <a href="https://docs.python.org/2.7/library/index.html">Python Library</a> | <a href="http://learnpythonthehardway.org/book/">Learn Python the Hard Way</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
