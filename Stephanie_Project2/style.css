@@ -1,0 +1,76 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.content{
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  max-width: 750px;
+  font: 17px sans-serif;
+}
+h1{
+  color: #03464D;
+  text-align: center;
+  font-size: 38px;
+}
+.tablecontents{
+  margin-bottom: 10px;
+  text-align: center;
+}
+.lesson{
+  background-color: #96DBE0;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+h2{
+  background-color: #05828F;
+  font-size: 28px;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 0px;
+}
+.headerimg img{
+  width: 750px;
+  border-radius: 10px;
+}
+.notes{
+  padding: 10px;
+}
+.resources{
+  border-radius: 10px;
+  border: 2px dashed #96DBE0;
+  padding: 10px;
+  color: #05828F;
+  margin: 15px auto;
+  text-align: center;
+}
+.ref{
+  font-size: 25px;
+}
+a:link, a:visited{
+  text-decoration: none;
+  color: #05828F;
+}
+a:hover, a:active{
+  text-decoration: none;
+  color: #96DBE0;
+}
+p{
+  margin: 5px;
+}
+.toplink{
+  text-align: right;
+}
+.toplink a:link, a:visited{
+  color: #05828F;
+}
+.toplink a:hover, a:active{
+  color: white;
+}
